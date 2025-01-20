@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>فیلیمو - صفحه اصلی</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- هدر -->
+  <div class="header" id="header">
+    <ul class="header-left">
+      <li><a href="#">ورود به حساب</a></li>
+      <li><a href="#">خرید اشتراک</a></li>
+    </ul>
+    <ul class="header-right">
+      <li><a href="#">فیلم</a></li>
+      <li><a href="#">سریال</a></li>
+      <li><a href="#">انیمیشن</a></li>
+      <li><a href="#" id="search-toggle">جستجو</a></li>
+    </ul>
+    <div class="search-bar" id="search-bar">
+      <input type="text" placeholder="جستجو..." id="search-input">
+    </div>
+  </div>
+
+  <!-- Slideshow container -->
+  <div class="slideshow-container">
+    <div class="mySlides fade">
+      <img src="img101.jpg" style="width:100%">
+    </div>
+    <div class="mySlides fade">
+      <img src="img102.jpg" style="width:100%">
+    </div>
+    <div class="mySlides fade">
+      <img src="img103.jpg" style="width:100%">
+    </div>
+    <div class="mySlides fade">
+      <img src="img104.jpg" style="width:100%">
+    </div>
+    <div class="mySlides fade">
+      <img src="img105.jpg" style="width:100%">
+    </div>
+    <!-- Next and previous buttons -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+
+  <br>
+
+  <!-- The dots/circles -->
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+    <span class="dot" onclick="currentSlide(4)"></span>
+    <span class="dot" onclick="currentSlide(5)"></span>
+  </div>
+
+  <footer>
+    <p>تمامی حقوق محفوظ است &copy; 2025</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
